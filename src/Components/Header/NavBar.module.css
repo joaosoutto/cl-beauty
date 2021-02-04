@@ -1,0 +1,12 @@
+nav {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 40rem) {
+  nav {
+    display: none;
+  }
+}
