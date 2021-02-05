@@ -6,8 +6,9 @@
 body {
   margin: 0px;
   color: rgb(40, 40, 40);
-  font-family: 'Poiret One', cursive; /* padding-top: 8rem; */
-  font-weight: 800;
+  font-family: 'Poiret One', cursive;
+   /* padding-top: 8rem; */
+  /* font-weight: 800; */
   /* font-family: 'Great Vibes', cursive; */
   /* font-family: 'Mukta', sans-serif; */
 }

@@ -1,11 +1,12 @@
 import React from 'react';
+import Slides from '../../Components/Slides/Slides';
+import styles from './Home.module.css';
 
 const Home = () => {
-
   return (
-    <div>
-        oi
-    </div>
+    <section className={styles.container}>
+      <Slides />
+    </section>
   );
 };
 
