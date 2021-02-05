@@ -1,7 +1,6 @@
 .title {
   border-left: 7px solid rgb(201, 3, 3);
   font-size: 8rem;
-  /* margin-bottom: 2.5rem; */
   padding-left: 1.5rem;
   text-shadow: 2px 2px 4px rgb(201, 3, 3);
 }
@@ -20,11 +19,9 @@
 
 .end {
   font-size: 2.5rem;
-  /* margin-top: 3rem; */
 }
 
 .textBlock {
-  /* background-color: mediumorchid; */
   color: white;
   left: 2rem;
   display: flex;
@@ -39,13 +36,11 @@
   flex-direction: column;
   justify-content: space-around;
   width: 70%;
-  /* background-color: maroon; */
   height: 90%;
 }
 
 .img {
   border-radius: 30px;
-  /* border: 1px solid rgb(218, 29, 29); */
   height: 900px;
   opacity: 0.6;
   width: 100%;
@@ -57,8 +52,6 @@
   }
 
   .textBlock {
-    /* left: 2rem; */
-    /* top: 5rem; */
     width: 70%;
   }
 
@@ -86,10 +79,10 @@
     border-bottom-right-radius: 0;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    /* border: none; */
     height: auto;
     opacity: 1;
   }
+
   .textBlock {
     align-items: center;
     background-color: rgb(255, 163, 130);
@@ -99,26 +92,21 @@
     min-height: 290px;
     flex-direction: column;
     justify-content: space-around;
-    /* padding-bottom: 2rem; */
     position: initial;
     padding: 0;
     width: 100%;
     height: auto;
-    /* background-color: mediumorchid; */
   }
 
   .title {
     border: none;
     font-size: 2.5rem;
-    /* margin-bottom: 1rem; */
-    /* margin-top: .5rem; */
     padding: 0;
     text-align: center;
   }
 
   .text {
     font-size: 1.2rem;
-    /* margin: 0; */
     text-align: center;
     width: 95%;
   }
