@@ -1,0 +1,33 @@
+.sec {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.servicos {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr 1fr;
+  width: 60%;
+}
+
+@media (min-width: 1900px) {
+  .sec {
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 40rem) {
+  .sec {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+
+  .servicos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+  }
+}

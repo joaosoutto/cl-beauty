@@ -1,0 +1,46 @@
+.card {
+  align-items: center;
+  background-color: rgb(255, 163, 130);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.8;
+  padding: 2rem 1rem;
+  transition: all 0.3s;
+}
+
+.card:hover {
+  opacity: 1;
+}
+
+.img {
+  width: 22%;
+}
+
+.name {
+  color: #fff;
+  font-size: 3rem;
+  letter-spacing: 0.4rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 1900px) {
+}
+
+@media (max-width: 40rem) {
+  .card {
+    opacity: 1;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .img {
+    width: 30%;
+  }
+
+  .name {
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    margin-top: 1rem;
+  }
+}
