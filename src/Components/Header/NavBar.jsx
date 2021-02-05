@@ -14,7 +14,7 @@ const NavBar = () => {
     <nav>
       <CustomLink svg={<ServiceSVG />} path="servicos" name="Serviços" />
       <CustomLink svg={<SpaSVG />} path="spa" name="Spa" />
-      <CustomLink svg={<RingsSVG />} path="noiva" name="Dia de Noiva" />
+      <CustomLink svg={<RingsSVG />} path="dia-de-noiva" name="Dia de Noiva" />
       <CustomLink svg={<BookSVG />} path="cursos" name="Cursos" />
       <CustomLink svg={<ContactSVG />} path="contato" name="Agenda e Contato" />
     </nav>

@@ -1,0 +1,42 @@
+.div {
+    background-color: mediumpurple;
+    width: 65%;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    margin: 2rem 0;
+    /* background-color: #013A6B; */
+    background-image: -webkit-linear-gradient(-30deg, rgb(254, 197, 157) 30%, rgb(253,227,208) 70%);
+    /* min-height: 500px; */
+    transition: all .5s;
+    border-radius: 20px;
+}
+
+.div:hover {
+transform: scale(1.05);
+}
+
+.img {
+    width: 130px;
+}
+
+.name {
+    font-size: 3rem;
+    /* color: rgb(253,227,208); */
+}
+
+@media (max-width: 40rem) {
+.div {
+    width: 95%;
+    flex-direction: column-reverse;
+}
+.img {
+    width: 60px;
+}
+.name {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+  }

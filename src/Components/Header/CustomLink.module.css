@@ -46,7 +46,7 @@
 .name {
   color: rgb(201, 3, 3);
   font-size: 1.8rem;
-  margin-top: 1.2rem;
+  margin-top: .8rem;
 }
 
 @media (min-width: 1900px) {

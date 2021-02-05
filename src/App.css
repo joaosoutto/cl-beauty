@@ -40,7 +40,7 @@ a {
 
 .animeLeft {
   opacity: 0;
-  animation: animeLeft 0.7s forwards;
+  animation: animeLeft .5s forwards;
 }
 
 @keyframes animeLeft {

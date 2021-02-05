@@ -1,18 +1,22 @@
 .carouselSec {
-  padding: 1rem 0;
-  width: 90%;
+    padding: 1rem 0;
+    width: 90%;
 }
 
 @media (min-width: 1900px) {
-  .carouselSec {
-    height: 1100px;
-    width: 80%;
+   .carouselSec {
+       width: 80%;
+       height: 1100px;
+   }
   }
-}
+  
 
-@media (max-width: 40rem) {
-  .carouselSec {
-    border: none;
+  @media (max-width: 40rem) {
+.carouselSec {
     width: 90%;
-  }
+    border: none;
+    /* min-height: 320px; */
+    /* padding: 1rem 0; */
 }
+  }
+  
