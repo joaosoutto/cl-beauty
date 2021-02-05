@@ -8,6 +8,7 @@
   /* position: sticky; */
   flex-shrink: 0;
   /* margin-top: %; */
+  width: 100%;
 }
 
 .cl {
